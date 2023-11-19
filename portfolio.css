@@ -1,0 +1,133 @@
+body {
+    font-family: times new roman;
+    margin: 0;
+    padding: 0;
+    background-color: #99CED3;
+	box-sizing:border-box;
+}
+/* Header */
+
+.header {
+    padding: 80px;
+  text-align: center;
+  background: #3AAFA9;
+  color: white;
+  font-size: 30px;
+  background-image: url('giphy1.gif');
+
+}
+
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color:#2B7A78;
+  overflow: hidden;
+  font:50px;
+}
+
+
+.navbar a {
+  float: left;
+  color:  #17252A;
+  text-align: right;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.nav-right{
+	float:right;
+}
+
+/* About */
+.about{
+	 margin: 20px;
+    padding: 20px;
+	font-size: 22px;
+	color:white;
+    background-color: #2B7A78;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Portfolio*/
+
+.Portfolio
+{
+	margin: 20px;
+    padding: 20px;
+    background-color:#3AAFA9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("img2.jpg");
+	
+	
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #17252A;
+  text-align: left;
+  padding : 10 px;
+}
+
+/* skill bars */
+* {box-sizing:border-box;
+}
+
+
+.container {
+  width: 90%; 
+  
+  
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: black; 
+ 
+  
+}
+
+.html {width: 90%; background-color: #2B7A78;   font-weight: bold;} 
+.css {width: 80%; background-color: #3AAFA9;   font-weight: bold;} 
+.js {width: 65%; background-color: #DEF2F1;  font-weight: bold;} 
+.php {width: 60%; background-color: #FEFFFF;  font-weight: bold;} 
+
+@media (max-width: 952px)
+{
+	waliyazeb.active{
+		font-size: 50px;
+		padding-left: 50px;
+	}
+	.nav-right
+	{
+		font-size:16px;
+		
+	}
+}
